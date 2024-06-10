@@ -1,0 +1,18 @@
+<!-- 
+    This file defines the main layout for a single page in a Hugo website.
+    It includes a section with a container and a row, and within the row, a column.
+    The column contains a partial template for the title and the content of the page.
+    The content is rendered as markdown.
+-->
+{{ define "main" }}
+    <section class="main">
+        <div class="container">
+            <div class="row">
+            <div class="col">
+                {{ partial "title" . }}
+                <div class="py-3">{{ .Content | markdownify }}</div>
+            </div>
+            </div>
+        </div>
+    </section>
+{{ end }}

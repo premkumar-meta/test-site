@@ -1,0 +1,104 @@
+backend:
+  name: git-gateway
+#npx netlify-cms-proxy-server
+local_backend: true  # Specifies that the backend is local
+site_url: http://localhost:8081 # Specifies the site URL for the local backend
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+editor:
+  preview: true
+collections:
+- name: "blog" # Used in routes, e.g., /admin/collections/blog
+  label: "Blog" # Used in the UI
+  folder: "content/blog/posts" # The path to the folder where the documents are stored
+  create: true # Allow users to create new documents in this collection
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  fields: # The fields for each document, usually in front matter
+    - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+    - { label: "Title", name: "title", widget: "string" }
+    - { label: "Publish Date", name: "date", widget: "datetime" }
+    - { label: "Featured Image", name: "thumbnail", widget: "image" }
+    - { label: "Body", name: "body", widget: "markdown" }
+
+#services are just like blog but has header, image and body
+- name: "services"
+  label: "Services"
+  folder: "content/services"
+  create: true
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  fields:
+    - { label: "Layout", name: "layout", widget: "hidden", default: "services" }
+    - { label: "Title", name: "title", widget: "string" }
+    - { label: "Publish Date", name: "date", widget: "datetime" }
+    - { label: "Featured Image", name: "thumbnail", widget: "image" }
+    - { label: "Body", name: "body", widget: "markdown" }
+      
+- name: "pages"
+  label: "Pages"
+  create: true
+  files:
+  - name: "home"
+    label: "Home"
+    file: "content/_index.md"
+    fields:
+      - name: "title"
+        label: "Title"
+        widget: "string"
+        required: true
+      - name: "heading"
+        label: "Heading"
+        widget: "string"
+        required: true
+      - name: draft
+        label: Draft
+        widget: boolean
+        default: false
+        required: false
+      - name: "summary"
+        label: "Summary"
+        widget: "string"
+        hint: Max 120-150 characters
+        required: false
+      - name: "images"
+        label: "Images"
+        widget: "list"
+        label_singular: "image"
+        required: false
+        summary: '{{fields.image}}'
+        field: { name: "image", label: "Image", widget: "image", media_folder: "assets", required: false, allow_multiple: false, choose_url: false}
+      - name: "body"
+        label: "Body"
+        widget: "markdown"
+  - name: "about"
+    label: "About"
+    file: "content/about.md"
+    fields:
+      - name: "title"
+        label: "Title"
+        widget: "string"
+        required: true
+      - name: "heading"
+        label: "Heading"
+        widget: "string"
+        required: true
+      - name: draft
+        label: Draft
+        widget: boolean
+        default: false
+        required: false
+      - name: "summary"
+        label: "Summary"
+        widget: "string"
+        hint: Max 120-150 characters
+        required: false
+      - name: "images"
+        label: "Images"
+        widget: "list"
+        label_singular: "image"
+        required: false
+        summary: '{{fields.image}}'
+        field: { name: "image", label: "Image", widget: "image", media_folder: "assets", required: false, allow_multiple: false, choose_url: false}
+      - name: "body"
+        label: "Body"
+        widget: "markdown"

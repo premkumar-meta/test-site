@@ -1,0 +1,12 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/hugo-universal-theme"]
+	path = themes/hugo-universal-theme
+	url = https://github.com/devcows/hugo-universal-theme
+[submodule "themes/minimal_marketing"]
+	path = themes/minimal_marketing
+	url = https://github.com/letItCurl/minimal_marketing
+[submodule "themes/paper"]
+	path = themes/paper
+	url = https://github.com/nanxiaobei/hugo-paper

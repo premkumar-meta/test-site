@@ -1,0 +1,23 @@
+<!--
+    This HTML file serves as the base template for all pages in the Hugo website.
+    It includes the necessary partials for the head, header, main content, footer, and script footer.
+    Any specific page content can be added within the "main" block.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ partial "head" . }}
+    </head>
+    <body>
+        <header>
+            {{ partial "header" . }}
+        </header>
+        <main>
+            {{ block "main" . }}{{ end }}
+        </main>
+        <footer>
+            {{ partial "footer" . }}
+        </footer>
+        {{ partial "scriptFooter" . }}
+    </body>
+</html>

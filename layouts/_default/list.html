@@ -1,0 +1,48 @@
+<!--
+This HTML template file is used to render a list of pages in a Hugo website. 
+It defines a main section that contains a container with rows and columns. 
+Inside the main section, it renders the page title, content, and a list of pages using a range loop. 
+It also includes a pagination component at the bottom.
+
+Template Structure:
+- main: The main section of the page.
+    - container: A container element to hold the content.
+        - row: A row element to create a horizontal layout.
+            - col: A column element to define the width of the content.
+                - partial "title": Renders the page title.
+                - div: A div element to display the page content.
+                    - .Content | markdownify: Converts the page content from Markdown to HTML.
+                - range .Paginator.Pages: Loops through the pages in the paginator.
+                    - article: An article element to display each page.
+                        - h2: Heading element to display the page title.
+                            - a: Anchor element to create a link to the page.
+                                - .Permalink: The permalink of the page.
+                                - .Title: The title of the page.
+                        - div: A div element to display the page summary.
+                            - .Summary: The summary of the page.
+                - div: A div element to hold the pagination component.
+                    - template "_internal/pagination.html": Renders the pagination component.
+-->
+{{ define "main" }}
+    <section class="main pb-3">
+        <div class="container">
+            <div class="row">
+            <div class="col">
+                {{ partial "title" . }}
+                <div class="py-3">{{ .Content | markdownify }}</div>
+                {{ range .Paginator.Pages }}
+                <article>
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <div class="pb-3">
+                    {{ .Summary }}
+                </div>
+                </article>
+                {{ end }}
+                <div class="m-3 d-flex justify-content-center">
+                {{ template "_internal/pagination.html" . }}
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
