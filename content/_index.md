@@ -2,8 +2,7 @@
 title: Home
 heading: Welcome to our society
 draft: false
-images:
-  - wallpaper.jpg
+images: []
 weight: 1
 menu: main
 ---

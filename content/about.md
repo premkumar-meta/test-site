@@ -2,8 +2,7 @@
 title: About
 heading: ABOUT US
 draft: false
-images:
-  - wallpaper.jpg
+images: []
 weight: 2
 menu: main
 ---
