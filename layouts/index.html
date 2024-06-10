@@ -1,80 +1,63 @@
 {{ define "main" }}
-  <section class="hero">
-    <div class="container col-xxl-8 g-5">
-      <div class="row align-items-center justify-content-center py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-            {{ range .Params.images }}
-            <img src="{{ . }}" alt="home page image" class="img-fluid d-block mx-auto">
+    <section class="hero">
+      <div class="container col-xxl-8 g-5">
+        <div class="row align-items-center justify-content-center py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+              {{ range .Params.images }}
+              <img src="{{ . }}" alt="home page image" class="img-fluid d-block mx-auto">
+              {{ end }}
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <h1>{{ .Params.heading }}</h1>
+            <p class="lead">{{ .Content }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{ $about := .Site.GetPage "page" "about" }}
+    <section class="about">
+      <div class="container col-xxl-8 g-5">
+        <div class="row align-items-center justify-content-center py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            {{ range $about.Params.images }}
+            <img src="{{ . }}" alt="about page image" class="img-fluid d-block mx-auto">
             {{ end }}
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <h1>{{ $about.Params.heading }}</h1>
+            <p class="lead">{{ $about.Content }}</p>
+          </div>
         </div>
-        <div class="col-lg-6 order-lg-first">
-          <h1>{{ .Params.heading }}</h1>
-          <p class="lead">{{ .Content }}</p>
-        </div>
       </div>
-    </div>
-  </section>
-  
-{{ $about := .Site.GetPage "page" "about" }}
-<section class="about">
-  <div class="container col-xxl-8 g-5">
-    <div class="row align-items-center justify-content-center py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        {{ range $about.Params.images }}
-        <img src="{{ . }}" alt="about page image" class="img-fluid d-block mx-auto">
-        {{ end }}
-      </div>
-      <div class="col-lg-6 order-lg-first">
-        <h1>{{ $about.Params.heading }}</h1>
-        <p class="lead">{{ $about.Content }}</p>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 
+<!-- 
+    iterate through all the folders in the content directory
+    and display the content of the folders in the index.html file
+    names of the folders can be anything
+-->
+{{ range .Site.Sections }}
   <section>
     <div class="container">
       <div class="row">
         <div class="col text-center">
-          <h2 class="fs-1 pb-3">Blog</h2>
+          <h2 class="fs-1 pb-3">{{ .Title }}</h2>
         </div>
     </div>
     <div class="row pb-3">
-      {{ range .Site.RegularPages }}
-        {{ if eq .Section "blog" }}
-          <div class="col-md-4">
-            <div class="card mb-3">
-                <img src="{{ .Params.thumbnail }}" class="card-img-top img-fluid" alt="{{ .Title }}">
-              <h5  class="card-title">{{ .Title }}</h5>
-              <p class="card-text">{{ .Summary }}</p>
-              <a href="{{ .Permalink }}" class="btn btn-primary">Read More</a>
-            </div>
+      {{ range .Pages }}
+        <div class="col-md-4">
+          <div class="card mb-3">
+              <img src="{{ .Params.thumbnail }}" class="card-img-top img-fluid" alt="{{ .Title }}">
+            <h5  class="card-title
+            ">{{ .Title }}</h5>
+            <p class="card-text">{{ .Summary }}</p>
+            <a href="{{ .Permalink }}" class="btn btn-primary">Read More</a>
           </div>
-        {{ end }}
-      {{ end }}   
-    </div>
-  </section>
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <h2 class="fs-1 pb-3">Services</h2>
         </div>
-    </div>
-    <div class="row pb-3">
-      {{ range .Site.RegularPages }}
-        {{ if eq .Section "services" }}
-          <div class="col-md-4">
-            <div class="card mb-3">
-                <img src="{{ .Params.thumbnail }}" class="card-img-top img-fluid" alt="{{ .Title }}">
-              <h5  class="card-title">{{ .Title }}</h5>
-              <p class="card-text">{{ .Summary }}</p>
-              <a href="{{ .Permalink }}" class="btn btn-primary">Read More</a>
-            </div>
-          </div>
-        {{ end }}
-      {{ end }}   
+      {{ end }}
     </div>
   </section>
+  {{end}}
 {{ end }}
