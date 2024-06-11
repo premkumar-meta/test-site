@@ -1,20 +1,19 @@
-<!-- 
-    This file defines the main layout for a single page in a Hugo website.
-    It includes a section with a container and a row, and within the row, a column.
-    The column contains a partial template for the title and the content of the page.
-    The content is rendered as markdown.
--->
 {{ define "main" }}
-    <section class="main">
-        <div class="container">
-            <div class="row">
+    <article class="container">
+        <div class="row">
             <div class="col">
-                {{ partial "title" . }}
-                <div class="py-3">
-                    {{ .Content | markdownify }}
-                </div>
-            </div>
+                <h1 class="display-4">{{ .Title }}</h1>
+                {{/*  there can be multiple images  */}}
+                {{ range .Params.images }}
+                    <img src="{{ . }}" alt="about page image" class="img-fluid d-block mx-auto">
+                {{ end }}
+
+                {{/*  or a single image with thumbnail as name in frontmatter  */}}
+                {{ with .Params.thumbnail }}
+                    <img src="{{ . }}" alt="about page image" class="img-fluid d-block mx-auto">
+                {{ end }}
+                <p class="lead">{{ .Content }}</p>
             </div>
         </div>
-    </section>
+    </article>
 {{ end }}
