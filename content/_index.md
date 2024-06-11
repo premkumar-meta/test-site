@@ -3,8 +3,7 @@ title: Home
 heading: Welcome to our society
 draft: false
 images:
-  - /images/uploads/oouq0rsz2lm61.png
-  - /images/uploads/undefined-imgur.jpg
+  - /images/uploads/gargantua-black-hole-4400x2475-v0-k1nopso5flj91.png
 weight: 1
 menu: main
 ---
