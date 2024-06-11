@@ -1,19 +1,36 @@
+{{/*  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+      {{ range .Params.images }}
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="{{ . }}" class="d-block w-100" alt="background">
+        </div>
+      {{ end }}
+  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>  */}}
 {{ define "main" }}
     <section class="hero">
-      <div class="container col-xxl-8 g-5">
-        <div class="row align-items-center justify-content-center py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-              {{ range .Params.images }}
-              <img src="{{ . }}" alt="home page image" class="img-fluid d-block mx-auto">
-              {{ end }}
+      <div class="bg-image" 
+            style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+                    height: 100vh"
+        >
+          <div class="text-center align-items-center justify-content-center d-flex h-100">
+            <div>
+              <h1 class="fs-1">{{ .Params.heading }}</h1>
+              <p class="lead">{{ .Content }}</p>
+            </div>
           </div>
-          <div class="col-lg-6 order-lg-first">
-            <h1>{{ .Params.heading }}</h1>
-            <p class="lead">{{ .Content }}</p>
-          </div>
-        </div>
       </div>
     </section>
+
+
     {{ $about := .Site.GetPage "page" "about" }}
     <section class="about">
       <div class="container col-xxl-8 g-5">
@@ -26,6 +43,7 @@
           <div class="col-lg-6 order-lg-first">
             <h1>{{ $about.Params.heading }}</h1>
             <p class="lead">{{ $about.Content }}</p>
+            <a href="{{ $about.Permalink }}" class="btn btn-primary">Read More</a>
           </div>
         </div>
       </div>
@@ -60,4 +78,22 @@
     </div>
   </section>
   {{end}}
+
+  
+  {{ $contact := .Site.GetPage "page" "contact" }}
+  <section class="contact">
+    <div class="container col-xxl-8 g-5">
+      <div class="row align-items-center justify-content-center py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          {{ range $contact.Params.images }}
+          <img src="{{ . }}" alt="contact page image" class="img-fluid d-block mx-auto">
+          {{ end }}
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <h1>{{ $contact.Params.heading }}</h1>
+          <p class="lead">{{ $contact.Content }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
 {{ end }}

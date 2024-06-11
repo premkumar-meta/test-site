@@ -2,7 +2,9 @@
 title: Home
 heading: Welcome to our society
 draft: false
-images: []
+images:
+  - /images/uploads/oouq0rsz2lm61.png
+  - /images/uploads/undefined-imgur.jpg
 weight: 1
 menu: main
 ---

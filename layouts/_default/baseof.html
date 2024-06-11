@@ -9,13 +9,13 @@
         {{ partial "head" . }}
     </head>
     <body>
-        <header>
+        <header class="fixed-top">
             {{ partial "header" . }}
         </header>
         <main>
             {{ block "main" . }}{{ end }}
         </main>
-        <footer>
+        <footer class="fixed-bottom bg-dark text-white p-3">
             {{ partial "footer" . }}
         </footer>
         {{ partial "scriptFooter" . }}
