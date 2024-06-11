@@ -2,7 +2,8 @@
 title: About
 heading: ABOUT US
 draft: false
-images: []
+images:
+  - /images/uploads/about-pic-1.jpg
 weight: 2
 menu: main
 ---

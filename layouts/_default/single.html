@@ -10,7 +10,9 @@
             <div class="row">
             <div class="col">
                 {{ partial "title" . }}
-                <div class="py-3">{{ .Content | markdownify }}</div>
+                <div class="py-3">
+                    {{ .Content | markdownify }}
+                </div>
             </div>
             </div>
         </div>
