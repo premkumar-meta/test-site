@@ -1,5 +1,7 @@
 backend:
   name: git-gateway
+
+
 #npx netlify-cms-proxy-server
 local_backend: true  # Specifies that the backend is local
 site_url: http://localhost:8081 # Specifies the site URL for the local backend
