@@ -1,5 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: premkumar-meta/test-site
+  branch: master
+
 
 display_url: http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/
 site_url: http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/
