@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on PropToll</title>
-    <link>http://localhost:1313/events/</link>
+    <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/events/</link>
     <description>Recent content in Events on PropToll</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Jun 2024 21:06:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/events/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sport and Cycling for Children</title>
-      <link>http://localhost:1313/events/2024-06-10-sport-and-cycling-for-children/</link>
+      <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/events/2024-06-10-sport-and-cycling-for-children/</link>
       <pubDate>Sun, 09 Jun 2024 21:06:00 +0000</pubDate>
-      <guid>http://localhost:1313/events/2024-06-10-sport-and-cycling-for-children/</guid>
+      <guid>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/events/2024-06-10-sport-and-cycling-for-children/</guid>
       <description>Fusce congue augue sollicitudin dignissim ultricies. Pellentesque id tristique quam. Aliquam pharetra vehicula dolor, et dictum ante males mollis. Aenean ultricies vulputate urna eget fringilla. Morbi fringilla ex ut velit gravida, a tempus dui rutrum. Maecenas feugiatings lorem et neque tristique, pulvinar pulvinar ligula covallis. dictiumoe augue sed rhoncus ultricies. Donec mi purus, viverra eget vulputate ac, finiee bus nec velit. Mauris hendrerit, neque eu dictum efficitur, ipsuurna andyee semper lorem, vitae hendrerit diam tortor nec nibh.</description>
     </item>
   </channel>

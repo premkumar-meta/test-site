@@ -1,5 +1,3 @@
-baseURL : https://example.org/
+baseURL : http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/
 languageCode : en-us
 title : PropToll
-
-local_backend: true

@@ -1,10 +1,13 @@
 backend:
   name: git-gateway
 
+display_url: http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/
+site_url: http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/
 
 #npx netlify-cms-proxy-server
-local_backend: true  # Specifies that the backend is local
-site_url: http://localhost:8081 # Specifies the site URL for the local backend
+# local_backend: true  # Specifies that the backend is local
+# site_url: http://localhost:8081 # Specifies the site URL for the local backend
+
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"

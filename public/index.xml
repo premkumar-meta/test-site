@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on PropToll</title>
-    <link>http://localhost:1313/</link>
+    <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/</link>
     <description>Recent content in Home on PropToll</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Jun 2024 15:49:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>this is a blog</title>
-      <link>http://localhost:1313/blog/posts/2024-06-10-this-is-a-blog/</link>
+      <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-10-this-is-a-blog/</link>
       <pubDate>Mon, 10 Jun 2024 15:49:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/2024-06-10-this-is-a-blog/</guid>
+      <guid>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-10-this-is-a-blog/</guid>
       <description>;llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll</description>
     </item>
     <item>
       <title>kljkljkljkljkljkljkljkljkljkljkljkk</title>
-      <link>http://localhost:1313/services/2024-06-10-kljkljkljkljkljkljkljkljkljkljkljkk/</link>
+      <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/services/2024-06-10-kljkljkljkljkljkljkljkljkljkljkljkk/</link>
       <pubDate>Sun, 09 Jun 2024 21:23:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/2024-06-10-kljkljkljkljkljkljkljkljkljkljkljkk/</guid>
+      <guid>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/services/2024-06-10-kljkljkljkljkljkljkljkljkljkljkljkk/</guid>
       <description>Fusce congue augue sollicitudin dignissim ultricies. Pellentesque id tristique quam. Aliquam pharetra vehicula dolor, et dictum ante males mollis. Aenean ultricies vulputate urna eget fringilla. Morbi fringilla ex ut velit gravida, a tempus dui rutrum. Maecenas feugiatings lorem et neque tristique, pulvinar pulvinar ligula covallis.&#xA;dictiumoe augue sed rhoncus ultricies. Donec mi purus, viverra eget vulputate ac, finiee bus nec velit. Mauris hendrerit, neque eu dictum efficitur, ipsuurna andyee semper lorem, vitae hendrerit diam tortor nec nibh.</description>
     </item>
     <item>
       <title>Sport and Cycling for Children</title>
-      <link>http://localhost:1313/events/2024-06-10-sport-and-cycling-for-children/</link>
+      <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/events/2024-06-10-sport-and-cycling-for-children/</link>
       <pubDate>Sun, 09 Jun 2024 21:06:00 +0000</pubDate>
-      <guid>http://localhost:1313/events/2024-06-10-sport-and-cycling-for-children/</guid>
+      <guid>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/events/2024-06-10-sport-and-cycling-for-children/</guid>
       <description>Fusce congue augue sollicitudin dignissim ultricies. Pellentesque id tristique quam. Aliquam pharetra vehicula dolor, et dictum ante males mollis. Aenean ultricies vulputate urna eget fringilla. Morbi fringilla ex ut velit gravida, a tempus dui rutrum. Maecenas feugiatings lorem et neque tristique, pulvinar pulvinar ligula covallis. dictiumoe augue sed rhoncus ultricies. Donec mi purus, viverra eget vulputate ac, finiee bus nec velit. Mauris hendrerit, neque eu dictum efficitur, ipsuurna andyee semper lorem, vitae hendrerit diam tortor nec nibh.</description>
     </item>
     <item>
       <title>Sports</title>
-      <link>http://localhost:1313/facilities/sports/</link>
+      <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/facilities/sports/</link>
       <pubDate>Sun, 09 Jun 2024 21:03:00 +0000</pubDate>
-      <guid>http://localhost:1313/facilities/sports/</guid>
+      <guid>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/facilities/sports/</guid>
       <description>sports includes all forms of competitive physical activity or games</description>
     </item>
     <item>
       <title>Water</title>
-      <link>http://localhost:1313/blog/posts/2024-06-07-water/</link>
+      <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-07-water/</link>
       <pubDate>Fri, 07 Jun 2024 14:31:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/2024-06-07-water/</guid>
+      <guid>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-07-water/</guid>
       <description>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quos expedita doloribus alias odio accusantium facilis eum adipisci saepe natus reiciendis magnam fuga aperiam quam officia amet nam eveniet aspernatur ad error, distinctio quidem. Totam, autem unde. Quibusdam consequuntur culpa amet minima reiciendis illum nam temporibus, in illo, ipsum officia?</description>
     </item>
     <item>
       <title>Water</title>
-      <link>http://localhost:1313/blog/posts/2024-06-07-this-is-a-black-hole/</link>
+      <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-07-this-is-a-black-hole/</link>
       <pubDate>Fri, 07 Jun 2024 14:31:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/2024-06-07-this-is-a-black-hole/</guid>
+      <guid>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-07-this-is-a-black-hole/</guid>
       <description>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quos expedita doloribus alias odio accusantium facilis eum adipisci saepe natus reiciendis magnam fuga aperiam quam officia amet nam eveniet aspernatur ad error, distinctio quidem. Totam, autem unde. Quibusdam consequuntur culpa amet minima reiciendis illum nam temporibus, in illo, ipsum officia?</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/about/</guid>
       <description>The society took up 1st venture, acquired 90 acres of land in S&amp;rsquo;No&#39;145&amp;rsquo; Hydernagar village, R.R Dist, in the year 1980, got the tayout approved, in the year L987&amp;rsquo; allotted plots to members and helped members for obtaining loans and to construct the houses&amp;rsquo; Thus the Vasanth Nagar colony emerged in Kukatpally and has become one of the model houslng colonies in the twin cities The society acquired under venture II about 55 acres of land in S.</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/contact/</guid>
       <description>Contact</description>
     </item>
     <item>
       <title>Water</title>
-      <link>http://localhost:1313/services/2024-06-07-water/</link>
+      <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/services/2024-06-07-water/</link>
       <pubDate>Fri, 07 Jun 2024 12:23:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/2024-06-07-water/</guid>
+      <guid>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/services/2024-06-07-water/</guid>
       <description>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quos expedita doloribus alias odio accusantium facilis eum adipisci saepe natus reiciendis magnam fuga aperiam quam officia amet nam eveniet aspernatur ad error, distinctio quidem. Totam, autem unde. Quibusdam consequuntur culpa amet minima reiciendis illum nam temporibus, in illo, ipsum officia?</description>
     </item>
   </channel>
