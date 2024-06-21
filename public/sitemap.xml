@@ -2,48 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-06-10T15:49:00+00:00</lastmod>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-10-this-is-a-blog/</loc>
+    <loc>http://localhost:1313/blog/posts/2024-06-10-this-is-a-blog/</loc>
     <lastmod>2024-06-10T15:49:00+00:00</lastmod>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/services/2024-06-10-kljkljkljkljkljkljkljkljkljkljkljkk/</loc>
+    <loc>http://localhost:1313/services/2024-06-10-kljkljkljkljkljkljkljkljkljkljkljkk/</loc>
     <lastmod>2024-06-09T21:23:00+00:00</lastmod>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/events/2024-06-10-sport-and-cycling-for-children/</loc>
+    <loc>http://localhost:1313/events/2024-06-10-sport-and-cycling-for-children/</loc>
     <lastmod>2024-06-09T21:06:00+00:00</lastmod>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/facilities/sports/</loc>
+    <loc>http://localhost:1313/facilities/sports/</loc>
     <lastmod>2024-06-09T21:03:00+00:00</lastmod>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-07-water/</loc>
+    <loc>http://localhost:1313/blog/posts/2024-06-07-water/</loc>
     <lastmod>2024-06-07T14:31:00+00:00</lastmod>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-07-this-is-a-black-hole/</loc>
+    <loc>http://localhost:1313/blog/posts/2024-06-07-this-is-a-black-hole/</loc>
     <lastmod>2024-06-07T14:31:00+00:00</lastmod>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-06-10T15:49:00+00:00</lastmod>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/services/</loc>
+    <loc>http://localhost:1313/services/</loc>
     <lastmod>2024-06-09T21:23:00+00:00</lastmod>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/events/</loc>
+    <loc>http://localhost:1313/events/</loc>
     <lastmod>2024-06-09T21:06:00+00:00</lastmod>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/facilities/</loc>
+    <loc>http://localhost:1313/facilities/</loc>
     <lastmod>2024-06-09T21:03:00+00:00</lastmod>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/services/2024-06-07-water/</loc>
+    <loc>http://localhost:1313/services/2024-06-07-water/</loc>
     <lastmod>2024-06-07T12:23:00+00:00</lastmod>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

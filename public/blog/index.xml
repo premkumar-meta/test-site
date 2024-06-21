@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on PropToll</title>
-    <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blogs on PropToll</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Jun 2024 15:49:00 +0000</lastBuildDate>
-    <atom:link href="http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>this is a blog</title>
-      <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-10-this-is-a-blog/</link>
+      <link>http://localhost:1313/blog/posts/2024-06-10-this-is-a-blog/</link>
       <pubDate>Mon, 10 Jun 2024 15:49:00 +0000</pubDate>
-      <guid>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-10-this-is-a-blog/</guid>
-      <description>;llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll</description>
+      <guid>http://localhost:1313/blog/posts/2024-06-10-this-is-a-blog/</guid>
+      <description>;lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll</description>
     </item>
     <item>
       <title>Water</title>
-      <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-07-water/</link>
+      <link>http://localhost:1313/blog/posts/2024-06-07-water/</link>
       <pubDate>Fri, 07 Jun 2024 14:31:00 +0000</pubDate>
-      <guid>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-07-water/</guid>
+      <guid>http://localhost:1313/blog/posts/2024-06-07-water/</guid>
       <description>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quos expedita doloribus alias odio accusantium facilis eum adipisci saepe natus reiciendis magnam fuga aperiam quam officia amet nam eveniet aspernatur ad error, distinctio quidem. Totam, autem unde. Quibusdam consequuntur culpa amet minima reiciendis illum nam temporibus, in illo, ipsum officia?</description>
     </item>
     <item>
       <title>Water</title>
-      <link>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-07-this-is-a-black-hole/</link>
+      <link>http://localhost:1313/blog/posts/2024-06-07-this-is-a-black-hole/</link>
       <pubDate>Fri, 07 Jun 2024 14:31:00 +0000</pubDate>
-      <guid>http://proptoll-static-sites.s3-website.ap-south-2.amazonaws.com/blog/posts/2024-06-07-this-is-a-black-hole/</guid>
-      <description>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quos expedita doloribus alias odio accusantium facilis eum adipisci saepe natus reiciendis magnam fuga aperiam quam officia amet nam eveniet aspernatur ad error, distinctio quidem. Totam, autem unde. Quibusdam consequuntur culpa amet minima reiciendis illum nam temporibus, in illo, ipsum officia?</description>
+      <guid>http://localhost:1313/blog/posts/2024-06-07-this-is-a-black-hole/</guid>
+      <description>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quos expedita doloribus alias odio accusantium facilis eum adipisci saepe natus reiciendis magnam fuga aperiam quam officia amet nam eveniet aspernatur ad error, distinctio quidem. Totam, autem unde. Quibusdam consequuntur culpa amet minima reiciendis illum nam temporibus, in illo, ipsum official?</description>
     </item>
   </channel>
 </rss>
